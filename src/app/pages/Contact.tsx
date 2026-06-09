@@ -43,7 +43,7 @@ export default function Contact() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            access_key: "d931902b-f5e9-4fa9-9336-bf6ee39cb602",
+            access_key: "87411755-c260-4a57-8ee8-9564cf782bc7",
             subject: "New Inquiry from ShreeAura Website",
             name: formData.name,
             email: formData.email,
