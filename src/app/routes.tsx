@@ -19,31 +19,19 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-       Component: setTitle(
-  "ShreeAura | Software Development & Digital Solutions",
-  Home
-),
+        Component: setTitle("Home", Home),
       },
       {
         path: "about",
-        Component: setTitle(
-  "About ShreeAura | Software Company",
-  About
-),
+        Component: setTitle("About", About),
       },
       {
         path: "services",
-       Component: setTitle(
-          "Services | ShreeAura",
-          Services
-        ),
+        Component: setTitle("Services", Services),
       },
       {
         path: "contact",
-  Component: setTitle(
-  "Contact Us | ShreeAura",
-  Contact
-),
+        Component: setTitle("Contact", Contact),
       },
     ],
   },
