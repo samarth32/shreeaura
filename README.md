@@ -1,5 +1,5 @@
 
-  ## Running the code
+  ## Steps to run the code
 
   Run `npm i` to install the dependencies.
 
