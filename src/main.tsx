@@ -10,7 +10,7 @@ import App from "./App";   // or "./app/App" depending on your project
 import "./styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  {/*<BrowserRouter> */}
     <App />
-  </BrowserRouter>
+  {/* </BrowserRouter> */}
 );
