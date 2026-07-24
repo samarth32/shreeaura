@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.shreeaura.com/sitemap.xml
+Sitemap: https://shreeaura.com/sitemap.xml
