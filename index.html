@@ -24,7 +24,8 @@
   <meta property="og:description"
     content="ShreeAura Trade And Solutions LLP provides IT services, business consulting, software development, AI solutions, and chemical trading across India." />
   <meta property="og:site_name" content="ShreeAura" />
-  <meta property="og:url" content="https://www.shreeaura.com/" />
+  <meta property="og:url" content="https://shreeaura.com/" />
+  <meta property="og:image" content="https://shreeaura.com/logo.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -45,15 +46,33 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "ShreeAura Trade And Solutions LLP",
-      "alternateName": "ShreeAura",
-      "url": "https://www.shreeaura.com/",
-      "logo": "https://www.shreeaura.com/logo.png",
-      "foundingDate": "2023",
-      "description": "ShreeAura Trade And Solutions LLP provides IT services, software development, AI solutions, business consulting and chemical trading.",
-      "sameAs": [
-        "https://www.linkedin.com/company/shreeaura"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://shreeaura.com/#organization",
+          "name": "ShreeAura",
+          "legalName": "ShreeAura Trade And Solutions LLP",
+          "alternateName": "Shree Aura",
+          "url": "https://shreeaura.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shreeaura.com/logo.png"
+          },
+          "foundingDate": "2023",
+          "description": "ShreeAura Trade And Solutions LLP provides IT services, software development, AI solutions, business consulting and chemical trading.",
+          "sameAs": [
+            "https://www.linkedin.com/company/shreeaura"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://shreeaura.com/#website",
+          "url": "https://shreeaura.com/",
+          "name": "ShreeAura",
+          "publisher": {
+            "@id": "https://shreeaura.com/#organization"
+          }
+        }
       ]
     }
   </script>
