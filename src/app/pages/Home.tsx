@@ -57,7 +57,7 @@ export default function Home() {
           >
 
             <h1 className="font-['Playfair_Display'] text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent leading-tight">
-              Transforming Ideas<br />Into Scalable Digital<br />Solutions
+              ShreeAura<br />Transforming Ideas<br />Into Scalable Solutions
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
