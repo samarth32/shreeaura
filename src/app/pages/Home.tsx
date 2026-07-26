@@ -12,12 +12,57 @@ function SectionDivider({ dot = false }: { dot?: boolean }) {
 }
 
 export default function Home() {
+  // const services = [
+  //   { icon: Code2, title: "Custom Software", description: "Tailored solutions built to your exact specifications", href: "/services" },
+  //   { icon: Smartphone, title: "Mobile Apps", description: "Native and cross-platform mobile experiences", href: "/services" },
+  //   { icon: Globe, title: "Web Development", description: "Modern, responsive web applications.", href: "/services" },
+  //   { icon: Layout, title: "UI/UX Design", description: "User-centered design that creates stunning digital experiences.", href: "/services" }
+  // ]; 
+
   const services = [
-    { icon: Code2, title: "Custom Software", description: "Tailored solutions built to your exact specifications", href: "/services" },
-    { icon: Smartphone, title: "Mobile Apps", description: "Native and cross-platform mobile experiences", href: "/services" },
-    { icon: Globe, title: "Web Development", description: "Modern, responsive web applications.", href: "/services" },
-    { icon: Layout, title: "UI/UX Design", description: "User-centered design that creates stunning digital experiences.", href: "/services" }
-  ];
+  {
+    icon: Brain,
+    title: "Artificial Intelligence",
+    description:
+      "AI Development, Machine Learning, Chatbots and Automation.",
+    href: "/services",
+  },
+  {
+    icon: Code2,
+    title: "Custom Software Development",
+    description:
+      "Enterprise software solutions for businesses.",
+    href: "/services",
+  },
+  {
+    icon: Globe,
+    title: "Website Development",
+    description:
+      "Professional responsive websites with SEO optimisation.",
+    href: "/services",
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile App Development",
+    description:
+      "Android, iOS and cross-platform mobile applications.",
+    href: "/services",
+  },
+  {
+    icon: Sparkles,
+    title: "Digital Marketing",
+    description:
+      "SEO, Google Ads, Social Media Marketing and Branding.",
+    href: "/services",
+  },
+  {
+    icon: Layout,
+    title: "UI/UX Design",
+    description:
+      "Modern user interface and experience design.",
+    href: "/services",
+  },
+];
 
   const reasons = [
     { number: "01", title: "Proven Process", description: "A streamlined methodology that guarantees results." },
@@ -57,12 +102,24 @@ export default function Home() {
           >
 
             <h1 className="font-['Playfair_Display'] text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent leading-tight">
-              Transforming Ideas<br />Into Scalable Solutions
+               ShreeAura
+               <br />
+               Trade And Solutions LLP
+              {/* Transforming Ideas<br />Into Scalable Solutions */}
             </h1>
 
-            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+            {/* <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
               Custom software development and IT solutions that drive innovation and empower businesses to achieve their full potential.
+            </p> */} 
+
+            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-12 leading-relaxed">
+              <strong>ShreeAura Trade And Solutions LLP</strong> is an innovative IT
+              company providing Artificial Intelligence (AI), Custom Software
+              Development, Website Development, Mobile App Development, Cloud
+              Solutions, ERP Systems, UI/UX Design, Digital Marketing and Business
+              Consulting services across India and globally.
             </p>
+            
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -81,7 +138,26 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> 
+
+      <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-6">
+            <h2 className="text-4xl font-bold mb-6">
+              About ShreeAura Trade And Solutions LLP
+            </h2>
+        
+            <p className="text-lg text-gray-600 leading-8">
+              ShreeAura Trade And Solutions LLP is a technology-driven company
+              specializing in Artificial Intelligence, Software Development,
+              Website Development, Mobile Applications, Cloud Computing, ERP
+              Solutions, UI/UX Design, IT Consulting, Business Automation and
+              Digital Transformation.
+        
+              Our experienced team helps startups, enterprises and businesses
+              build scalable digital products using modern technologies.
+            </p>
+          </div>
+        </section>
 
       {/* divider: Hero → Services */}
       <SectionDivider />
