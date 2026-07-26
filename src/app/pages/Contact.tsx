@@ -1,3 +1,4 @@
+import PageTitle from '../components/PageTitle';
 import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Clock, Send, Calendar } from "lucide-react";
 import { useState } from "react";
@@ -5,7 +6,8 @@ import { Link } from "react-router";
 import emailjs from "@emailjs/browser";
 
 function SectionDivider({ dot = false }: { dot?: boolean }) {
-  return (
+  return (<><PageTitle title="Contact" />
+
     <div className="max-w-7xl mx-auto px-6 lg:px-8">
       <div className={`section-divider${dot ? " section-divider--dot" : ""}`} />
     </div>
@@ -341,5 +343,5 @@ export default function Contact() {
         </div>
       </section> */}
     </main>
-  );
+  </>;
 }
