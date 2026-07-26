@@ -66,14 +66,6 @@ export default function Home() {
             {/* <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
               Custom software development and IT solutions that drive innovation and empower businesses to achieve their full potential.
             </p> */} 
-
-            <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-12 leading-relaxed">
-              <strong>ShreeAura Trade And Solutions LLP</strong> is an innovative IT
-              company providing Artificial Intelligence (AI), Custom Software
-              Development, Website Development, Mobile App Development, Cloud
-              Solutions, ERP Systems, UI/UX Design, Digital Marketing and Business
-              Consulting services across India and globally.
-            </p>
             
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
