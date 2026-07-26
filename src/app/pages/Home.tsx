@@ -57,15 +57,12 @@ export default function Home() {
           >
 
             <h1 className="font-['Playfair_Display'] text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground to-muted-foreground bg-clip-text text-transparent leading-tight">
-               ShreeAura
-               <br />
-               Trade And Solutions LLP
-              {/* Transforming Ideas<br />Into Scalable Solutions */}
+              Transforming Ideas<br />Into Scalable Solutions 
             </h1>
 
-            {/* <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
               Custom software development and IT solutions that drive innovation and empower businesses to achieve their full potential.
-            </p> */} 
+            </p> 
             
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
