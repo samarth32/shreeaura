@@ -1,12 +1,10 @@
-import PageTitle from '../components/PageTitle';
 import { Link } from "react-router";
 import { motion } from "motion/react";
 import { ArrowRight, ArrowUpRight, Code2, Smartphone, Globe, Brain, Sparkles, Layout } from "lucide-react";
 
 /** Reusable gradient-fade divider — invisible at edges, hair-thin at centre */
 function SectionDivider({ dot = false }: { dot?: boolean }) {
-  return (<><PageTitle title="Home" />
-
+  return (
     <div className="max-w-7xl mx-auto px-6 lg:px-8">
       <div className={`section-divider${dot ? " section-divider--dot" : ""}`} />
     </div>
@@ -189,5 +187,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-  </>;
+  );
 }

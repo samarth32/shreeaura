@@ -1,11 +1,9 @@
-import PageTitle from '../components/PageTitle';
 import { motion } from "motion/react";
 import { Link } from "react-router";
 import { Target, Eye, Shield, Zap, Heart, Award, ArrowRight, Lightbulb, Rocket, TrendingUp, Infinity } from "lucide-react";
 
 function SectionDivider({ dot = false }: { dot?: boolean }) {
-  return (<><PageTitle title="About" />
-
+  return (
     <div className="max-w-7xl mx-auto px-6 lg:px-8">
       <div className={`section-divider${dot ? " section-divider--dot" : ""}`} />
     </div>
@@ -224,5 +222,5 @@ export default function About() {
       {/* divider: Industries → Journey */}
       <SectionDivider dot />
     </main>
-  </>;
+  );
 }
