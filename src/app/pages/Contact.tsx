@@ -68,8 +68,8 @@ export default function Contact() {
       // STEP 2: Send auto reply via EmailJS
       try {
         const emailResponse = await emailjs.send(
-          "service_bi13bug", // Replace with your actual Service ID
-          "template_iwux8ck", // Replace with your actual Template ID
+          "service_mkyc4ar", // Replace with your actual Service ID
+          "template_bfr12fh", // Replace with your actual Template ID
           {
             to_email: formData.email,
 
@@ -80,7 +80,7 @@ export default function Contact() {
             location: formData.location,
             service: formData.service,
           },
-          "TfnILLvjdeLSliWGF" // Replace with your actual Public Key
+          "mIeuGyLLir2gNaRrS" // Replace with your actual Public Key
         );
 
         console.log("EmailJS Success:", emailResponse);
