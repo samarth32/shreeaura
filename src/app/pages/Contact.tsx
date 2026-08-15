@@ -79,15 +79,16 @@ export default function Contact() {
             company: formData.company || "N/A",
             location: formData.location,
             service: formData.service,
+            message: formData.message,
           },
           "mIeuGyLLir2gNaRrS" // Replace with your actual Public Key
         );
 
-        console.log("EmailJS Success:", emailResponse);
+        console.log("Auto-reply sent successfully:", emailResponse);
       } catch (emailError: any) {
         console.error("EmailJS Error:", emailError);
-        console.log("Status:", emailError?.status);
-        console.log("Message:", emailError?.text);
+        // console.log("Status:", emailError?.status);
+        // console.log("Message:", emailError?.text);
 
         alert(
           `Auto reply failed.\nStatus: ${emailError?.status}\n${emailError?.text}`
