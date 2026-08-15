@@ -94,7 +94,7 @@ export default function Contact() {
         );
       }
 
-      alert("Thank you! Your inquiry has been submitted successfully.");
+      // alert("Thank you! Your inquiry has been submitted successfully.");
 
       setFormData({
         name: "",
@@ -107,7 +107,7 @@ export default function Contact() {
       });
     } catch (error) {
       console.error("Submit Error:", error);
-      alert("Something went wrong.");
+      // alert("Something went wrong.");
     }
   };
 
