@@ -72,7 +72,6 @@ export default function Contact() {
           "template_bfr12fh", // Replace with your actual Template ID
           {
             to_email: formData.email,
-
             name: formData.name,
             email: formData.email,
             phone: formData.phone,
