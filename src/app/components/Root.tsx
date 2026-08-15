@@ -7,7 +7,7 @@ const SITE_URL = "https://www.shreeaura.com";
 
 const PAGE_META: Record<string, { title: string; description: string }> = {
   "/": {
-    title: "ShreeAura | Custom Software Development in Ahmedabad",
+    title: "ShreeAura | Home",
     description:
       "Custom software, web, and mobile app development for businesses in Ahmedabad and beyond — from ShreeAura Trade and Solutions LLP.",
   },
